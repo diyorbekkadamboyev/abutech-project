@@ -399,9 +399,35 @@ img {
 
 .container {
   width: 100%;
-  max-width: 1282px;
+  max-width: 1323px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.header_btn {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+  background: #00094A;
+  border-radius: 3px;
+  border: 3px solid #00094A;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  padding: 14px 30px;
+  cursor: pointer;
+  margin-right: 35px;
+}
+
+.header_btn:hover {
+  border: 3px solid #00094A;
+  background-color: #404ca8;
+}
+
+.header_btn:active {
+  border: 3px solid #00094A;
+  background-color: white;
+  color: #00094A;
 }
 
 .header {
@@ -461,33 +487,6 @@ img {
   margin-right: 35px;
 }
 
-.header .header_top .header_right .header_btn {
-  font-family: 'Montserrat';
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 15px;
-  color: #FFFFFF;
-  background: #00094A;
-  border-radius: 3px;
-  border: 3px solid #00094A;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  padding: 14px 30px;
-  cursor: pointer;
-  margin-right: 35px;
-}
-
-.header .header_top .header_right .header_btn:hover {
-  border: 3px solid #00094A;
-  background-color: #404ca8;
-}
-
-.header .header_top .header_right .header_btn:active {
-  border: 3px solid #00094A;
-  background-color: white;
-  color: #00094A;
-}
-
 .header .header_top .header_right .header_menu .header_menu--link {
   margin: 0;
   text-decoration: none;
@@ -512,5 +511,160 @@ img {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+}
+
+.hero {
+  margin: 0;
+}
+
+.hero .hero_wrappr {
+  background-image: url("../../images/Rectangle 223.png"), url("../../images/background.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 1282px;
+  height: 398px;
+  margin-bottom: 60px;
+}
+
+.hero .hero_wrappr .hero_left {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding-top: 195px;
+}
+
+.hero .hero_wrappr .hero_left .hero_title {
+  margin: 0;
+  font-family: 'Montserrat';
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 43px;
+  color: #FFFFFF;
+  margin-bottom: 7px;
+}
+
+.hero .hero_wrappr .hero_left .hero_text {
+  margin: 0;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 14px;
+  color: #FFFFFF;
+  max-width: 493px;
+  margin-bottom: 15px;
+}
+
+.hero .hero_wrappr .hero_left .hero_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #00094A;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 206px;
+  height: 42px;
+  padding: 8px 0;
+  background: #00094A;
+  border-radius: 3px;
+}
+
+.hero .hero_wrappr .hero_left .hero_btn .hero_btn--text {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-left: 15px;
+}
+
+.hero .hero_wrappr .hero_left .hero_btn .hero_btn--img {
+  margin-left: 30px;
+  margin-right: 12px;
+}
+
+.hero .hero_list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.hero .hero_list .hero_item {
+  width: 166px;
+}
+
+.hero .hero_list .hero_item .hero_link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #00094A;
+}
+
+.hero .hero_list .hero_item .hero_link .hero_span {
+  margin: 0;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #00094A;
+  text-decoration: none;
+}
+
+.hero .hero_list .hero_items {
+  width: 125px;
+}
+
+.hero .hero_list .hero_items .hero_link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #00094A;
+}
+
+.hero .hero_list .hero_items .hero_link .hero_span {
+  margin: 0;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #00094A;
+  text-decoration: none;
+}
+
+.hero .hero_list .hero_item--right {
+  width: 145px;
+  display: block;
+}
+
+.hero .hero_list .hero_item--right .hero_link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #00094A;
+}
+
+.hero .hero_list .hero_item--right .hero_link .hero_span {
+  margin: 0;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #00094A;
+  text-decoration: none;
+  padding-right: 25px;
 }
 /*# sourceMappingURL=main.css.map */

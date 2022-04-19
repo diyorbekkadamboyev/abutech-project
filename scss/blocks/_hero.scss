@@ -1,0 +1,152 @@
+.hero {
+    margin: 0;
+    
+    .hero_wrappr {
+        background-image: url("../../images/Rectangle\ 223.png"), url("../../images/background.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 1282px;
+        height: 398px;
+        margin-bottom: 60px;
+
+        .hero_left {
+            max-width: 1158px;
+            margin: 0 auto;
+            padding-top:195px;
+
+            .hero_title {
+                margin: 0;
+                font-family: 'Montserrat';
+                font-weight: 800;
+                font-size: 35px;
+                line-height: 43px;
+                color: #FFFFFF;
+                margin-bottom: 7px;
+            }
+
+            .hero_text {
+                margin: 0;
+                font-family: 'Montserrat';
+                font-weight: 500;
+                font-size: 14px;
+                color: #FFFFFF;
+                max-width: 493px;
+                margin-bottom: 15px;
+            }
+
+            .hero_btn {
+                display: flex;
+                align-items: center;
+                background: #00094A;
+                border-radius: 3px;
+                cursor: pointer;
+                width: 206px;
+                height: 42px;
+                padding: 8px 0;
+                background: #00094A;
+                border-radius: 3px;
+                
+                
+                .hero_btn--text {
+                    font-weight: 700;
+                    font-size: 12px;
+                    line-height: 15px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                    margin-left: 15px;
+                }
+
+                .hero_btn--img {
+                    margin-left: 30px;
+                    margin-right: 12px;
+                }
+            }
+        }
+    }
+
+    .hero_list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 80px;
+
+        .hero_item {
+            width: 166px;
+
+            .hero_link {
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 18px;
+                color: #00094A;
+                
+    
+                
+                .hero_span {
+                    margin: 0;
+                    font-family: 'Montserrat';
+                    font-weight: 700;
+                    font-size: 48px;
+                    line-height: 59px;
+                    color: #00094A;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .hero_items {
+            width: 125px;
+
+            .hero_link {
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 18px;
+                color: #00094A;
+                
+    
+                
+                .hero_span {
+                    margin: 0;
+                    font-family: 'Montserrat';
+                    font-weight: 700;
+                    font-size: 48px;
+                    line-height: 59px;
+                    color: #00094A;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .hero_item--right {
+            width: 145px;
+            display: block;
+            
+
+            .hero_link {
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 18px;
+                color: #00094A;
+                
+    
+                
+                .hero_span {
+                    margin: 0;
+                    font-family: 'Montserrat';
+                    font-weight: 700;
+                    font-size: 48px;
+                    line-height: 59px;
+                    color: #00094A;
+                    text-decoration: none;
+                    padding-right: 25px;
+                }
+            }
+        }
+    }
+}
