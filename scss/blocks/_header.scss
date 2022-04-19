@@ -1,5 +1,97 @@
 .header {
-    .til {
-        border: none;
+    padding: 16px 0;
+
+    .header_top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .header_logo:hover {
+            opacity: 0.8;
+        }
+    
+        .header_logo:active {
+            opacity: 0.4;
+        }
+    
+        .header_right {
+            display: flex;
+            align-items: center;
+    
+            .header_tel {
+    
+                .header_links {
+                    font-family: 'Montserrat';
+                    font-weight: 600;
+                    font-size: 12px;
+                    line-height: 15px;
+                    color: #00094A;
+                    text-decoration: none;
+                    margin-left: 10px;
+                }
+            }
+    
+            .header_line {
+                margin-left: 32px;
+                margin-right: 30px;
+            }
+    
+            .header_outline {
+                margin-right: 30px;
+            }
+    
+            .header_select {
+                border: none;
+                margin-right: 35px;
+            }
+    
+            .header_btn {
+                font-family: 'Montserrat';
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 15px;
+                color: #FFFFFF;
+                background: #00094A;
+                border-radius: 3px;
+                border: 3px solid #00094A;
+                transition: 0.3s;
+                padding: 14px 30px;
+                cursor: pointer;
+                margin-right: 35px;
+            }
+        
+            .header_btn:hover {
+                border: 3px solid #00094A;
+                background-color: #404ca8;
+            }
+    
+            .header_btn:active {
+                border: 3px solid #00094A;
+                background-color: white;
+                color: #00094A;
+            }
+    
+            .header_menu {
+    
+                .header_menu--link {
+                    margin: 0;
+                    text-decoration: none;
+                    display: flex;
+                    align-items: center;
+    
+    
+                    .header_menu--text {
+                        margin: 0;
+                        margin-right: 10px;
+                    }
+
+                    .header_menu--text:active {
+                        color: #00094A;
+                    }
+                }
+    
+    
+            }
+        }
     }
 }
