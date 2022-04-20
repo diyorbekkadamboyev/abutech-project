@@ -414,9 +414,10 @@ img {
   border: 3px solid #00094A;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  padding: 14px 30px;
+  padding: 12px 30px;
   cursor: pointer;
-  margin-right: 35px;
+  width: 186px;
+  height: 42px;
 }
 
 .header_btn:hover {
@@ -484,6 +485,10 @@ img {
 
 .header .header_top .header_right .header_select {
   border: none;
+  margin-right: 35px;
+}
+
+.header .header_top .header_right .header--right {
   margin-right: 35px;
 }
 
@@ -666,5 +671,197 @@ img {
   color: #00094A;
   text-decoration: none;
   padding-right: 25px;
+}
+
+.about .about_top {
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.about .about_top .about_text {
+  margin: 0;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #00094A;
+}
+
+.about .about_top .about_title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  color: #00094A;
+}
+
+.about .about_list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.about .about_list .about_item {
+  width: 298px;
+  background: #FFFFFF;
+  border: 1px solid #DBDBDB;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.about .about_list .about_item .about_link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-decoration: none;
+}
+
+.about .about_list .about_item .about_link .about_img {
+  margin-top: 60px;
+  margin-bottom: 29px;
+}
+
+.about .about_list .about_item .about_link .about_heading {
+  margin: 0;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 32px;
+  color: #00094A;
+  max-width: 198px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.about .about_list .about_item .about_link .about--center {
+  width: 116px;
+}
+
+.about .about_list .about_item .about_link .about_desc {
+  margin: 0;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #00094A;
+  opacity: 0.6;
+  max-width: 249px;
+  text-align: center;
+  margin-bottom: 65px;
+  padding: 0 25px;
+}
+
+.about .about_list .about_item:hover {
+  background: #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 0px 0px 3px rgba(7, 50, 90, 0.1);
+          box-shadow: 0px 0px 0px 3px rgba(7, 50, 90, 0.1);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.service .service_top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 140px;
+}
+
+.service .service_top .service_left .service_text {
+  margin: 0;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #00094A;
+  margin-bottom: 20px;
+}
+
+.service .service_top .service_left .service_heading {
+  margin: 0;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  color: #00094A;
+  width: 655px;
+  margin-bottom: 15px;
+}
+
+.service .service_top .service_left .service_heading .service_span {
+  color: #00ffd9;
+}
+
+.service .service_top .service_left .service_texts {
+  font-weight: 500;
+  line-height: 28px;
+  color: #00094A;
+  opacity: 0.8;
+  max-width: 739px;
+}
+
+.work-wrappr {
+  border: 2px solid red;
+}
+
+.work-wrappr .checkbox__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.widget .widget-wrappr {
+  background-image: url("../../images/widget.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  width: 1282px;
+  height: 665px;
+  cursor: pointer;
+}
+
+.widget .widget-wrappr .widget-text {
+  margin: 0;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #00094A;
+}
+
+.widget .widget-wrappr .widget-title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  color: #00094A;
+  margin-bottom: 15px;
+}
+
+.widget .widget-wrappr .widget-texts {
+  margin: 0;
+  max-width: 488px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #00094A;
+  opacity: 0.8;
 }
 /*# sourceMappingURL=main.css.map */

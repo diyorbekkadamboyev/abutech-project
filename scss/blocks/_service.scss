@@ -1,0 +1,42 @@
+.service {
+
+    .service_top {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom:140px ;
+
+        .service_left {
+            
+            .service_text {
+                margin: 0;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 20px;
+                color: #00094A;
+                margin-bottom: 20px;
+            }
+
+            .service_heading {
+                margin: 0;
+                font-weight: 700;
+                font-size: 50px;
+                line-height: 61px;
+                color: #00094A;
+                width: 655px;
+                margin-bottom: 15px;
+
+                .service_span {
+                    color: rgb(0, 255, 217);
+                }
+            }
+
+            .service_texts {
+                font-weight: 500;
+                line-height: 28px;
+                color: #00094A;
+                opacity: 0.8;
+                max-width: 739px;
+            }
+        }
+    }
+}

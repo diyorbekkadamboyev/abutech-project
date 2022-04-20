@@ -1,0 +1,90 @@
+.about {
+
+    .about_top {
+        margin: 0;
+        margin-bottom: 50px;
+
+        .about_text {
+            margin: 0;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            color: #00094A;
+        }
+
+        .about_title {
+            margin: 0;
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 61px;
+            color: #00094A;
+        }
+    }
+
+    .about_list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 80px;
+
+        .about_item {
+            width: 298px;
+            background: #FFFFFF;
+            border: 1px solid #DBDBDB;
+            box-sizing: border-box;
+            
+
+            .about_link {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                text-decoration: none;
+
+
+                .about_img{
+                    margin-top: 60px;
+                    margin-bottom: 29px;
+                }
+
+                .about_heading {
+                    margin: 0;
+                    font-weight: 700;
+                    font-size: 22px;
+                    line-height: 32px;
+                    color: #00094A;
+                    max-width: 198px;
+                    text-align: center;
+                    margin-bottom: 12px;
+                }
+
+                .about--center {
+                    width: 116px;
+                }
+
+                .about_desc {
+                    margin: 0;
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 16px;
+                    color: #00094A;
+                    opacity: 0.6;
+                    max-width: 249px;
+                    text-align: center;
+                    margin-bottom: 65px;
+                    padding: 0 25px;
+                }
+            }
+
+            &:hover {
+                    background: #FFFFFF;
+                    box-sizing: border-box;
+                    box-shadow: 0px 0px 0px 3px rgba(7, 50, 90, 0.1);
+                    transition: 0.3s;     
+            }
+        }
+
+    }
+}
